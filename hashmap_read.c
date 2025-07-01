@@ -33,7 +33,6 @@ node *create(int data){
   node *new = (node*) malloc(sizeof(node));
   new->data_key = data;
   new->freq = 1;
-  printf("new!\n");
   return new;
 }
 
